@@ -1,4 +1,75 @@
 .side-bar {
-  background-color: #393a44;
+  background-color: #81620b;
   min-width: 200px;
+}
+
+.bg-maincolor {
+  background: rgb(141,238,26);
+  background: linear-gradient(0deg, rgb(111, 194, 10) 0%, rgb(255, 179, 15) 100%);
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #2260d3;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-primary:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-primary:hover {
+  background-color: rgb(52, 174, 255);
+  box-shadow: 0 9px #999;
+}
+
+.btn-secondary {
+  background-color: #6cc507;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-secondary:active {
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn-secondary:hover {
+  background-color: #acff11;
+  box-shadow: 0 9px #999;
+}
+
+.btn-dark {
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn-dark:active {
+  box-shadow: 0 5px #666;
+}
+
+.thead-ox th {
+  color: rgb(255, 255, 255);
+  background-color: #6cc507;
+}
+
+.tbody-white td {
+  color: #000000;
+  background-color: #d6cf64;
+}
+
+h1 {
+  padding-top: 2%;
+  font-size: 48px;
+  text-shadow: 5px 5px 5px rgb(224, 255, 166);
+}
+
+h2 {
+  padding-top: 2%;
+  text-shadow: 5px 5px 5px rgb(224, 255, 166);
 }

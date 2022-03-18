@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
 
 /**
@@ -17,7 +16,7 @@ function Menu() {
           to="/"
         >
           <div className="sidebar-brand-text mx-3">
-            <span>Periodic Tables</span>
+            <h2><span>Periodic Tables</span></h2>
           </div>
         </Link>
         <hr className="sidebar-divider my-0" />
