@@ -21,9 +21,12 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "start": "react-scripts start",
+    "start:backend": "npm --prefix ./back-end start",
+    "start:frontend": "npm --prefix ./front-end start",
+    "start:dev": "npx concurrently \"npm run start:dev --prefix ./back-end\" \"npm start --prefix ./front-end\" ",
     "build": "react-scripts build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
     "test": "npx cross-env CI=true npm run test:run",
     "test:run": "run-s test:unit test:e2e",
     "test:1": "run-p -l -r test:start:* \"test:e2e:run -- us-01\"",
@@ -60,8 +63,8 @@
   },
   "devDependencies": {
     "cross-fetch": "^3.0.6",
+    "jest-puppeteer": "^4.4.0",
     "npm-run-all": "^4.1.5",
-    "jest-puppeteer": "^6.0.0",
-    "puppeteer": "^10.4.0"
+    "puppeteer": "^5.5.0"
   }
 }

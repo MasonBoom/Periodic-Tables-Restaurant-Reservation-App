@@ -8,17 +8,13 @@
     "url": "https://github.com/Thinkful-Ed/starter-restaurant-reservation"
   },
   "scripts": {
-    "frontend": "cd frontend && npm start",
-    "api": "cd api && nodemon app.js",
-    "dev": "concurrently --kill-others-on-fail \"npm run api\" \"npm run frontend\"",
-    "heroku-postbuild": "cd frontend && npm install && npm run build",
     "build": "npm -prefix front-end run build",
     "preinstall": "cd ./back-end && npm install",
     "install": "cd ./front-end && npm install",
-    "start": "npx concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start": "npx concurrently 'npm run start:backend' 'npm run start:frontend'",
     "start:backend": "npm --prefix ./back-end start",
     "start:frontend": "npm --prefix ./front-end start",
-    "start:dev": "npx concurrently 'npm run start:dev --prefix ./back-end' 'npm start --prefix ./front-end'",
+    "start:dev": "npx concurrently \"npm run start:dev --prefix ./back-end\" \"npm start --prefix ./front-end\" ",
     "test": "npm run test:frontend && npm run test:backend",
     "test:backend": "npm test --prefix ./back-end",
     "test:frontend": "npm test --prefix ./front-end",
@@ -51,5 +47,10 @@
   },
   "keywords": [],
   "author": "Thinkful, Inc.",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "uuid": "^8.3.2",
+    "uuidv4": "^6.2.12"
+  }
 }
