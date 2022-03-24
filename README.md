@@ -37,7 +37,6 @@ A full-stack app built using:
 1. Include your backend connection within `./front-end/.env` (defaults to `http://localhost:5000`).
 1. Run `npm install` to install project dependencies.
 1. Run `npm run start` to start the server.
-<<<<<<< HEAD
 
 ## App Functionality
 
@@ -47,40 +46,7 @@ A full-stack app built using:
 - Navigation buttons: `Previous Day`, `Today`, & `Next Day` are available for changing the date displayed by the dashboard.
 - All tables (free or occupied) are also diplayed here.
 
-![dashboard]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_33_37 PM.png")
-
----
-
-### Menu
-
-The menu provides options to:
-1. Search for a reservation
-2. Create a new reservation 
-3. Create a new table
-4. Return to dashboard
-![menu]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_33_58 PM.png")
-
----
-
-### Search
-
-1. Enter the phone number for the reservation.
-2. Click `find`.
-
-This will display any matching results.
-
-![searched]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_35_05 PM.png")
-=======
-
-## App Functionality
-
-### Dashboard
-
-- Defaults to displaying a list of booked (or seated) reservations for the current date.  
-- Navigation buttons: `Previous Day`, `Today`, & `Next Day` are available for changing the date displayed by the dashboard.
-- All tables (free or occupied) are also diplayed here.
-
-![dashboard]()
+![dashboard](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/5a5a86cbaa9c71fdca982dd5b77033bd04819bba/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_33_37%20PM.png)
 
 ---
 
@@ -111,7 +77,6 @@ The menu provides options to:
 This will display any matching results.
 
 ![searched]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 ---
 
@@ -120,11 +85,7 @@ This will display any matching results.
 1. Fill out the form with the reservation information.
 1. Click `submit`.
 
-<<<<<<< HEAD
-![newReservation]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_35_54 PM.png")
-=======
 ![newReservation]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 ---
 
@@ -133,11 +94,7 @@ This will display any matching results.
 1. Fill out the form with the table information.
 1. Click `submit`.
 
-<<<<<<< HEAD
-![newTable]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_36_19 PM.png")
-=======
 ![newTable]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 ---
 
@@ -147,19 +104,11 @@ This will display any matching results.
 1. Select a table from the drop-down menu.
 1. Click `submit` to seat the reservation at the selected table.
 
-<<<<<<< HEAD
-![seat]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_36_38 PM.png")
-
-Once a reservation is seated, the reservation status will change from `booked` to `seated`.
-
-![seated]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_36_51 PM.png")
-=======
 ![seat]()
 
 Once a reservation is seated, the reservation status will change from `booked` to `seated`.
 
 ![seated]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 ---
 
@@ -168,11 +117,7 @@ Once a reservation is seated, the reservation status will change from `booked` t
 1. Click `finish` on the table that has finished.
 1. Click `OK` on the confirmation window that pops-up.
 
-<<<<<<< HEAD
-![finishing]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_37_17 PM.png")
-=======
 ![finishing]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 Note: finished reservations no longer display in the dashboard.
 
@@ -184,11 +129,7 @@ Note: finished reservations no longer display in the dashboard.
 1. Edit any of the reservation information as needed.
 1. Click `submit` to save the updated reservation information.
 
-<<<<<<< HEAD
-![editing]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_37_40 PM.png")
-=======
 ![editing]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 ---
 
@@ -197,11 +138,7 @@ Note: finished reservations no longer display in the dashboard.
 1. Click `cancel` on the reservation you'd like to cancel.
 1. Click `OK` on the confirmation window that pops-up.
 
-<<<<<<< HEAD
-![cancelling]("screenshots\Periodic Tables Restaurant Reservation System - Google Chrome 3_24_2022 3_38_03 PM.png")
-=======
 ![cancelling]()
->>>>>>> 1c77856f2a4003e69a959db101b2a6fd3d7dea6c
 
 Note: cancelled reservations no longer display in the dashboard.
 
