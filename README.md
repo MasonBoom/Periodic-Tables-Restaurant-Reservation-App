@@ -54,16 +54,10 @@ A full-stack app built using:
 
 The menu provides options to:
 1. Search for a reservation
-
-![menuSearch]()
-
 2. Create a new reservation 
-
-![menuNewReservation]()
-
 3. Create a new table
 
-![menuNewTable]()
+![menu](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_33_58%20PM.png)
 
 ---
 
@@ -72,11 +66,9 @@ The menu provides options to:
 1. Enter the phone number for the reservation.
 1. Click `find`.
 
-![search]()
-
 This will display any matching results.
 
-![searched]()
+![searched](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_35_05%20PM.png)
 
 ---
 
@@ -85,7 +77,7 @@ This will display any matching results.
 1. Fill out the form with the reservation information.
 1. Click `submit`.
 
-![newReservation]()
+![newReservation](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_35_54%20PM.png)
 
 ---
 
@@ -94,7 +86,7 @@ This will display any matching results.
 1. Fill out the form with the table information.
 1. Click `submit`.
 
-![newTable]()
+![newTable](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_36_19%20PM.png)
 
 ---
 
@@ -104,11 +96,11 @@ This will display any matching results.
 1. Select a table from the drop-down menu.
 1. Click `submit` to seat the reservation at the selected table.
 
-![seat]()
+![seat](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_36_38%20PM.png)
 
 Once a reservation is seated, the reservation status will change from `booked` to `seated`.
 
-![seated]()
+![seated](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_36_51%20PM.png)
 
 ---
 
@@ -117,7 +109,7 @@ Once a reservation is seated, the reservation status will change from `booked` t
 1. Click `finish` on the table that has finished.
 1. Click `OK` on the confirmation window that pops-up.
 
-![finishing]()
+![finishing](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_37_17%20PM.png)
 
 Note: finished reservations no longer display in the dashboard.
 
@@ -129,7 +121,7 @@ Note: finished reservations no longer display in the dashboard.
 1. Edit any of the reservation information as needed.
 1. Click `submit` to save the updated reservation information.
 
-![editing]()
+![editing](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_37_40%20PM.png)
 
 ---
 
@@ -138,7 +130,7 @@ Note: finished reservations no longer display in the dashboard.
 1. Click `cancel` on the reservation you'd like to cancel.
 1. Click `OK` on the confirmation window that pops-up.
 
-![cancelling]()
+![cancelling](https://github.com/MasonBoom/Periodic-Tables-Restaurant-Reservation-App/blob/a5baf343aa8359092e56a51e07e848d8407a6124/screenshots/Periodic%20Tables%20Restaurant%20Reservation%20System%20-%20Google%20Chrome%203_24_2022%203_38_03%20PM.png)
 
 Note: cancelled reservations no longer display in the dashboard.
 
