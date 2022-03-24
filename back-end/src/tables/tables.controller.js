@@ -29,9 +29,11 @@ async function validTable(req, res, next) {
   if (data.table_name && data.table_name.length <= 1) {
     errorMsgs.push("The table_name must be more than one character.");
   }
+
   if (!Number.isInteger(data.capacity) || data.capacity < 1) {
     errorMsgs.push("The capacity must be a number greater than zero.");
   }
+
   if (errorMsgs.length) {
     next({
       status: 400,
@@ -62,18 +64,21 @@ async function validUpdate(req, res, next) {
       message: `${req.body.data.reservation_id} does not exist.`,
     });
   }
+
   if (table.capacity < reservation.people) {
     next({
       status: 400,
       message: `This table does not have sufficient capacity for this reservation.`,
     });
   }
+
   if (table.reservation_id) {
     next({
       status: 400,
       message: `This table is occupied.`,
     });
   }
+  
   if (!reservation.status || reservation.status === "seated") {
     next({
       status: 400,
@@ -93,6 +98,7 @@ async function tableOccupied(req, res, next) {
       message: `Table ${table_id} cannot be found`,
     });
   }
+
   if (!table.reservation_id) {
     next({
       status: 400,

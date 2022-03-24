@@ -14,6 +14,7 @@ async function validReservation(req, res, next) {
   if (!data) {
     return next({ status: 400, message: "Data is missing" });
   }
+
   const requiredFields = [
     "first_name",
     "last_name",
@@ -36,6 +37,7 @@ async function validReservation(req, res, next) {
   let reservationDate = new Date(
     `${data.reservation_date} ${data.reservation_time}`
   );
+
   if (reservationDate.getDay() === 2) {
     errorMsgs.push(`Restaurant is closed on Tuesdays.`);
   }
@@ -43,6 +45,7 @@ async function validReservation(req, res, next) {
   if (!Number.isInteger(data.people) || data.people < 1) {
     errorMsgs.push("The number of people must be a number greater than zero.");
   }
+
   if (data.reservation_date && data.reservation_time) {
     if (!data.reservation_date.match(dateFormat)) {
       errorMsgs.push(
@@ -56,13 +59,16 @@ async function validReservation(req, res, next) {
       );
     }
   }
+
   let backToday = new Date();
   if (reservationDate <= data.today || reservationDate < backToday) {
     errorMsgs.push(`The reservation date and time must be in the future.`);
   }
+
   if (data.reservation_time) {
     // console.log(data.reservation_time.replace(/[:]/g, ""))
     let resTime = Number(data.reservation_time.replace(/[:]/g, ""));
+
     if (resTime < 1030 || resTime > 2130) {
       errorMsgs.push(
         `Please select a reservation time between 10:30 AM and 9:30 PM.`
@@ -90,6 +96,7 @@ async function reservationExists(req, res, next) {
       message: `reservation_id ${reservation_id} does not exist`,
     });
   }
+
   res.locals.reservation = reservation;
   next();
 }
@@ -103,6 +110,7 @@ function notSeated(req, res, next) {
       message: `${reservation_id} is already seated.`,
     });
   }
+
   if (status === "finished") {
     next({
       status: 400,
@@ -122,6 +130,7 @@ function validStatusUpdate(req, res, next) {
       message: `The status is unknown.`,
     });
   }
+  
   if (reservation.status === "finished") {
     next({
       status: 400,
