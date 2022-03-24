@@ -1,5 +1,7 @@
 # Periodic Tables
 
+The periodic tables restaurant reservation app is a full-stack web application that allows users to view availble tables, schedule a reservation, create tables, and search reservations by phone number. When a reservation is made, it gets stored into a PostgreSQL database.
+
 Live version of the app: https://evening-lowlands-63794.herokuapp.com/dashboard
 
 A full-stack app built using:
@@ -9,7 +11,7 @@ A full-stack app built using:
 - React
 - Express
 - Knex
-- PostgreSQL API
+- PostgreSQL
 
 ## Available API Endpoints
 
