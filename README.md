@@ -12,6 +12,8 @@ A full-stack app built using:
 - Express
 - Knex
 - PostgreSQL
+- ElephantSQL
+- Heroky
 
 ## Available API Endpoints
 
